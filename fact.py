@@ -1,3 +1,5 @@
+# factorial of a number with a recursive function 
+
 def factorialRecu(n):
     if n > 1: #caso base
         return n * factorialRecu(n - 1)
